@@ -1,8 +1,19 @@
+import 'package:platzi_trips_app/User/model/user.dart';
+import 'package:flutter/material.dart';
 class Place {
+  String id;
   String name;
-  String where;
-  String type;
-  String steps;
+  String description;
+  String uriImage;
+  int likes;
+  User userOwner;
 
-  Place(this.name, this.where, this.type, this.steps);
+  Place({
+    Key key,
+    @required this.name,
+    @required this.description,
+    @required this.uriImage,
+    this.likes, 
+    @required this.userOwner
+  });
 }

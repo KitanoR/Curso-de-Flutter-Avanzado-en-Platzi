@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 import 'package:platzi_trips_app/User/block/bloc_user.dart';
+import 'package:platzi_trips_app/User/ui/screens/sigin_screen.dart';
 import 'platzi_trips.dart';
 import 'platzi_trips_cupertino.dart';
 
@@ -16,10 +17,11 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       bloc: UserBloc(),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
-        
+        home: SignInScreen(),
         //home: PlatziTrips()
-        home: PlatziTripsCupertino(),
+        //home: PlatziTripsCupertino(),
       ),
     );
   }
@@ -66,6 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
+      
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
@@ -105,6 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
+        heroTag: null,
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
