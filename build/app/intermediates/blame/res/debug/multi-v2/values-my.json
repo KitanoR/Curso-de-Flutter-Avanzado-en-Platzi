@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0-rc01.aar/951545b5288f80b2857133c86aa553df/res/values-my/values-my.xml",
+                    "source": "/home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/961d463e43d4beb371615973ed0da2d8/res/values-my/values-my.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

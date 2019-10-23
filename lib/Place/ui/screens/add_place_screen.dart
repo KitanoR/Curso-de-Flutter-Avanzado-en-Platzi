@@ -1,9 +1,13 @@
 import 'dart:io';
 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:generic_bloc_provider/generic_bloc_provider.dart';
+import 'package:platzi_trips_app/Place/model/place.dart';
 import 'package:platzi_trips_app/Place/ui/widgets/card_image.dart';
 import 'package:platzi_trips_app/Place/ui/widgets/title_input_location.dart';
+import 'package:platzi_trips_app/User/block/bloc_user.dart';
 import 'package:platzi_trips_app/widgets/button_purple.dart';
 import 'package:platzi_trips_app/widgets/gradient_back.dart';
 import 'package:platzi_trips_app/widgets/text_input.dart';
@@ -17,8 +21,11 @@ class AddPlaceScreen extends StatefulWidget {
 }
 
 class _AddPlaceScreenState extends State<AddPlaceScreen> {
+
   @override
   Widget build(BuildContext context) {
+
+    UserBloc userBloc = BlocProvider.of<UserBloc>(context);
         double screenWidht = MediaQuery.of(context).size.width;
     final _controllerTitlePlace = TextEditingController();
     final _controllerDescriptionPlace = TextEditingController();
@@ -58,7 +65,9 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
                 children: <Widget>[
                   Container(
                     alignment: Alignment.center,
-                    child: CardImageWithFabIcon(pathImage: "assets/img/beach_palm.jpeg", iconData: Icons.favorite_border,
+                    child: CardImageWithFabIcon(
+                          pathImage: widget.image.path, 
+                          iconData: Icons.favorite_border,
                           width: 300.0,
                           height: 250.0,
                           left: 0,),
@@ -93,10 +102,24 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
                       buttonText: "Add place",
                       onPressed: () {
                         //Firebase Store
-
-                        //url
-                        //Cloud Firestore
+                        //id usuario
+                        userBloc.currentUser.then((FirebaseUser user) {
+                          if(user != null){
+                            //url
+                            //Cloud Firestore
+                            
+                          }
+                        });
+                        
                         //Place - title, descripción, url
+                        userBloc.updatePlaceData(Place(
+                          name: _controllerTitlePlace.text,
+                          description: _controllerDescriptionPlace.text,
+                          likes: 0
+                        )).whenComplete((){
+                          print("Termin´o");
+                          Navigator.pop(context);
+                        });
                       },
                     ),
                   )

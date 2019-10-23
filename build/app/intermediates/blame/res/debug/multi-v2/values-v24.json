@@ -4,7 +4,7 @@
             "outputFile": "/home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/caye/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc01.aar/9c7747ada25b037e8ff35498a001db92/res/values-v24/values-v24.xml",
+                    "source": "/home/caye/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/b241ceddaf17432b01e8fca775a7e2ee/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

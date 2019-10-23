@@ -6,6 +6,7 @@ INJECTED from /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/
 INJECTED from /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/android/app/src/main/AndroidManifest.xml:1:1-39:12
 MERGED from [:firebase_core] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_auth] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
+MERGED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-22:12
 MERGED from [:firebase_storage] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
 MERGED from [:google_sign_in] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-9:12
 MERGED from [:cloud_firestore] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
@@ -35,32 +36,33 @@ MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/caye/.grad
 MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/caye/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/4749765669e3a1184af9abc9f4bb64d4/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/4fce4eafcc910d6a3ad995f0621ac148/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/caye/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.2.0.aar/3b0bc8f1ef023bf8e30134a8f8ce9273/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc01.aar/ff90663c2036bd64a9d74738bea31983/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc01.aar/9c7747ada25b037e8ff35498a001db92/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-rc01.aar/a5191537b9196b7ee45c6bee706b491a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0-rc01.aar/8cc5413e6490a78a7c0da4be278c8754/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0-rc01.aar/75314f23c5548a39556a48748742ee61/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/loader-1.0.0-rc01.aar/3fa4b98dd52e20795f34181150e7aaad/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0-rc01.aar/39a63ca6391224deffb0269afcad2505/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-rc01.aar/06a090909ef24ed778e6e56887fbdcfc/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0-rc01.aar/8011262d9b5eb20eccb9dd4d009d8167/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0-rc01.aar/7d375b8d081045a4912ed8b8d9740473/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/customview-1.0.0-rc01.aar/5de1cf537c5bd8c6462e93a25e55dbda/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0-rc01.aar/22e72e557d1b41eca16e666348b77960/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0-rc01.aar/c2f9617a316209bd620470aa525b2f19/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0-rc01.aar/951545b5288f80b2857133c86aa553df/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0-rc01.aar/9abfaa16db24116bf2af6b0703946b8d/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0-rc01.aar/69cca9793c0dad3f8122d5a6d10c2aed/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0-rc01.aar/5d730f7205b9c23c16e1e87235c1f16f/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/print-1.0.0-rc01.aar/e395fecde16f390966e3e5726a348e62/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0-rc01.aar/e332f92dafca71cf3cf9db20fcbc28d0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0-rc01.aar/3b37af755a23199ff697807ef1e24be2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/0045d2cb5db9e18ea99f36ac4b12bf67/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/b241ceddaf17432b01e8fca775a7e2ee/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/d42e9dd5e4c2b5c08f0bdc112c70c8dd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/b60915749940030b4e1859629381f2a0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/1a1ebd8a1e82f01a3c89e0bb458e4874/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1ced3bf4134348d14a377886abf835c6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/8318f339900d6a2d8efdc7c64a55f070/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/2d750faf6a99fddadba2288e72487ca8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/c0a11a6a0ee3881d1482123960b1f8c6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/941b79b56573a532ce3bbd1809611e74/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/2d7a7c4e9a5627d88d8771b17b178f70/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/35955eaf69b3133274e221507b4ae9dd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/2095ec40f951d1428b8e1dd74547ba64/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/961d463e43d4beb371615973ed0da2d8/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/56bfce7097a552d34c43b0141d9378ec/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/d69b6f1252f68a4668c68931b45e0a9c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/fecc0b5c816ea27f27c93242a0e2a3ea/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/9b9747ad5c1eb4e7f1c75142f84f6d5c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/c7183758080bf298699e68337a578bbb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/fe204d480b4c515cb3b10d5b9b080523/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/1d0316bb5980711c0bbd5af2fe047a63/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/4448fcf41b4da9bef324d3428c0d61bc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/66da2cf68ce12a13dbc5264f5c8a69d2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/88fa6ba289ebfd82c331c68b44d7fecc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b98cd62e5ee1157ef6ecaa33008747f8/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/caye/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/036c4d23320ed419c71b9de376ac375c/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/caye/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/c1f6f6bacb06f52f65e2b2ead00176c8/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0-rc01.aar/f5bab61e0663f75b963b08d6f5342c7b/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0-rc01.aar/6f8eb6d89b00b618da03ff3084266c6d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0-rc01.aar/814f5851d1914058fc1209f8cb1c6b8c/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0-rc01.aar/16c719506eeb8b2ba229fd8b1328328f/AndroidManifest.xml:17:1-22:12
 INJECTED from /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/android/app/src/main/AndroidManifest.xml:1:1-39:12
@@ -104,6 +106,8 @@ MERGED from [:firebase_core] /home/caye/Documentos/flutter/Curso-de-Flutter-Avan
 MERGED from [:firebase_core] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:5-20:19
 MERGED from [:firebase_storage] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_storage] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-13:19
@@ -152,12 +156,12 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/c
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/4fce4eafcc910d6a3ad995f0621ac148/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/caye/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.2.0.aar/3b0bc8f1ef023bf8e30134a8f8ce9273/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/caye/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.2.0.aar/3b0bc8f1ef023bf8e30134a8f8ce9273/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0-rc01.aar/951545b5288f80b2857133c86aa553df/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0-rc01.aar/951545b5288f80b2857133c86aa553df/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0-rc01.aar/9abfaa16db24116bf2af6b0703946b8d/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0-rc01.aar/9abfaa16db24116bf2af6b0703946b8d/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/961d463e43d4beb371615973ed0da2d8/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/961d463e43d4beb371615973ed0da2d8/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/56bfce7097a552d34c43b0141d9378ec/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/56bfce7097a552d34c43b0141d9378ec/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0-rc01.aar/951545b5288f80b2857133c86aa553df/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/961d463e43d4beb371615973ed0da2d8/AndroidManifest.xml:22:18-86
 	android:label
 		ADDED from /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/android/app/src/main/AndroidManifest.xml:17:9-41
 	android:icon
@@ -202,6 +206,8 @@ MERGED from [:firebase_core] /home/caye/Documentos/flutter/Curso-de-Flutter-Avan
 MERGED from [:firebase_core] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_storage] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_storage] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
@@ -260,58 +266,60 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/c
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/4fce4eafcc910d6a3ad995f0621ac148/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/caye/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.2.0.aar/3b0bc8f1ef023bf8e30134a8f8ce9273/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/caye/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.2.0.aar/3b0bc8f1ef023bf8e30134a8f8ce9273/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc01.aar/ff90663c2036bd64a9d74738bea31983/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc01.aar/ff90663c2036bd64a9d74738bea31983/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc01.aar/9c7747ada25b037e8ff35498a001db92/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc01.aar/9c7747ada25b037e8ff35498a001db92/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-rc01.aar/a5191537b9196b7ee45c6bee706b491a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-rc01.aar/a5191537b9196b7ee45c6bee706b491a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0-rc01.aar/8cc5413e6490a78a7c0da4be278c8754/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0-rc01.aar/8cc5413e6490a78a7c0da4be278c8754/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0-rc01.aar/75314f23c5548a39556a48748742ee61/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0-rc01.aar/75314f23c5548a39556a48748742ee61/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/loader-1.0.0-rc01.aar/3fa4b98dd52e20795f34181150e7aaad/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/loader-1.0.0-rc01.aar/3fa4b98dd52e20795f34181150e7aaad/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0-rc01.aar/39a63ca6391224deffb0269afcad2505/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0-rc01.aar/39a63ca6391224deffb0269afcad2505/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-rc01.aar/06a090909ef24ed778e6e56887fbdcfc/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-rc01.aar/06a090909ef24ed778e6e56887fbdcfc/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0-rc01.aar/8011262d9b5eb20eccb9dd4d009d8167/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0-rc01.aar/8011262d9b5eb20eccb9dd4d009d8167/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0-rc01.aar/7d375b8d081045a4912ed8b8d9740473/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0-rc01.aar/7d375b8d081045a4912ed8b8d9740473/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/customview-1.0.0-rc01.aar/5de1cf537c5bd8c6462e93a25e55dbda/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/customview-1.0.0-rc01.aar/5de1cf537c5bd8c6462e93a25e55dbda/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0-rc01.aar/22e72e557d1b41eca16e666348b77960/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0-rc01.aar/22e72e557d1b41eca16e666348b77960/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0-rc01.aar/c2f9617a316209bd620470aa525b2f19/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0-rc01.aar/c2f9617a316209bd620470aa525b2f19/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0-rc01.aar/951545b5288f80b2857133c86aa553df/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0-rc01.aar/951545b5288f80b2857133c86aa553df/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0-rc01.aar/9abfaa16db24116bf2af6b0703946b8d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0-rc01.aar/9abfaa16db24116bf2af6b0703946b8d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0-rc01.aar/69cca9793c0dad3f8122d5a6d10c2aed/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0-rc01.aar/69cca9793c0dad3f8122d5a6d10c2aed/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0-rc01.aar/5d730f7205b9c23c16e1e87235c1f16f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0-rc01.aar/5d730f7205b9c23c16e1e87235c1f16f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/print-1.0.0-rc01.aar/e395fecde16f390966e3e5726a348e62/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/print-1.0.0-rc01.aar/e395fecde16f390966e3e5726a348e62/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0-rc01.aar/e332f92dafca71cf3cf9db20fcbc28d0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0-rc01.aar/e332f92dafca71cf3cf9db20fcbc28d0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0-rc01.aar/3b37af755a23199ff697807ef1e24be2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0-rc01.aar/3b37af755a23199ff697807ef1e24be2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/0045d2cb5db9e18ea99f36ac4b12bf67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/0045d2cb5db9e18ea99f36ac4b12bf67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/b241ceddaf17432b01e8fca775a7e2ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/b241ceddaf17432b01e8fca775a7e2ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/d42e9dd5e4c2b5c08f0bdc112c70c8dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/d42e9dd5e4c2b5c08f0bdc112c70c8dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/b60915749940030b4e1859629381f2a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/b60915749940030b4e1859629381f2a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/1a1ebd8a1e82f01a3c89e0bb458e4874/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/1a1ebd8a1e82f01a3c89e0bb458e4874/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1ced3bf4134348d14a377886abf835c6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1ced3bf4134348d14a377886abf835c6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/8318f339900d6a2d8efdc7c64a55f070/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/8318f339900d6a2d8efdc7c64a55f070/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/2d750faf6a99fddadba2288e72487ca8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/2d750faf6a99fddadba2288e72487ca8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/c0a11a6a0ee3881d1482123960b1f8c6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/c0a11a6a0ee3881d1482123960b1f8c6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/941b79b56573a532ce3bbd1809611e74/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/941b79b56573a532ce3bbd1809611e74/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/2d7a7c4e9a5627d88d8771b17b178f70/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/2d7a7c4e9a5627d88d8771b17b178f70/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/35955eaf69b3133274e221507b4ae9dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/35955eaf69b3133274e221507b4ae9dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/2095ec40f951d1428b8e1dd74547ba64/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/2095ec40f951d1428b8e1dd74547ba64/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/961d463e43d4beb371615973ed0da2d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/961d463e43d4beb371615973ed0da2d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/56bfce7097a552d34c43b0141d9378ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/56bfce7097a552d34c43b0141d9378ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/d69b6f1252f68a4668c68931b45e0a9c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/d69b6f1252f68a4668c68931b45e0a9c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/fecc0b5c816ea27f27c93242a0e2a3ea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/fecc0b5c816ea27f27c93242a0e2a3ea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/9b9747ad5c1eb4e7f1c75142f84f6d5c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/9b9747ad5c1eb4e7f1c75142f84f6d5c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/c7183758080bf298699e68337a578bbb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/c7183758080bf298699e68337a578bbb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/fe204d480b4c515cb3b10d5b9b080523/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/fe204d480b4c515cb3b10d5b9b080523/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/1d0316bb5980711c0bbd5af2fe047a63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/1d0316bb5980711c0bbd5af2fe047a63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/4448fcf41b4da9bef324d3428c0d61bc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/4448fcf41b4da9bef324d3428c0d61bc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/66da2cf68ce12a13dbc5264f5c8a69d2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/66da2cf68ce12a13dbc5264f5c8a69d2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/88fa6ba289ebfd82c331c68b44d7fecc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/88fa6ba289ebfd82c331c68b44d7fecc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b98cd62e5ee1157ef6ecaa33008747f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/caye/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b98cd62e5ee1157ef6ecaa33008747f8/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/caye/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/036c4d23320ed419c71b9de376ac375c/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/caye/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/036c4d23320ed419c71b9de376ac375c/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/caye/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/c1f6f6bacb06f52f65e2b2ead00176c8/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/caye/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/c1f6f6bacb06f52f65e2b2ead00176c8/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0-rc01.aar/f5bab61e0663f75b963b08d6f5342c7b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0-rc01.aar/f5bab61e0663f75b963b08d6f5342c7b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0-rc01.aar/6f8eb6d89b00b618da03ff3084266c6d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0-rc01.aar/6f8eb6d89b00b618da03ff3084266c6d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0-rc01.aar/814f5851d1914058fc1209f8cb1c6b8c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0-rc01.aar/814f5851d1914058fc1209f8cb1c6b8c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0-rc01.aar/16c719506eeb8b2ba229fd8b1328328f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0-rc01] /home/caye/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0-rc01.aar/16c719506eeb8b2ba229fd8b1328328f/AndroidManifest.xml:20:5-44
 INJECTED from /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -356,6 +364,30 @@ ADDED from [:firebase_auth] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanz
 		ADDED from [:firebase_auth] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_auth] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:17-122
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:17-67
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
 ADDED from [:firebase_storage] /home/caye/Documentos/flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:13-11:85
 	android:value
